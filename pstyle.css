@@ -1,0 +1,47 @@
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.sidebar a:hover {
+    color: yellow;
+}
+
+ 
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+
+.image-section {
+    position: relative;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+ 
+.image {
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    left: 10%;
+    top: 50px;
+}

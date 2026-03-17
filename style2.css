@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dcdcdc;
+}
+header {
+    background-color: #3d556b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid black;
+}
+ 
+.box {
+    background-color: #eeeeee;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+}
+ 
+.item {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+}
+ 
+.project {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: white;
+}
+
+.project button {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+ 
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+textarea {
+    height: 80px;
+}
+
+.send {
+    background-color: #3d556b;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+ 
+footer {
+    background-color: #3d556b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-top: 4px solid black;
+}

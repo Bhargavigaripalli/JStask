@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <style>
+          body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            border: 1px;
+            justify-content: center;    
+            align-items: center;       
+        }
+        .ball{
+            width:200px;
+            height:200px;
+             border: 15px solid lightgray;
+            border-top: 15px solid blueviolet;
+            
+            animation: spin 1s linear infinite;
+                  
+                 border-radius: 50%;
+               
+
+        }
+
+        @keyframes spin{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ball">
+        <div class="load"></div>
+    </div>
+</body>
+</html>
